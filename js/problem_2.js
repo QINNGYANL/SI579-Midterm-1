@@ -17,10 +17,10 @@ const thingCountOutput = document.querySelector('#problem-2 #thing-count');
 //thingCountOutput.textContent = "(TODO)";
 
 thingInput.addEventListener('change', ()=>{
-    updateOutput();
+    updateNumber();
 });
 
-function updateOutput(){
+function updateNumber(){
     //console.log(thingInput.value);
     const intergerinput = parseInt(thingInput.value);
     //console.log(intergerinput);
